@@ -1,0 +1,134 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Hp> py
+Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> # Function to perform addition
+>>> def add(x, y):
+...     return x + y
+...
+>>> # Function to perform subtraction
+>>> def subtract(x, y):
+...     return x - y
+...
+>>> # Function to perform multiplication
+>>> def multiply(x, y):
+...     return x * y
+...
+>>> # Function to perform division
+>>> def divide(x, y):
+...     if y == 0:
+...         return "Cannot divide by zero"
+...     return x / y
+...
+>>> print("Simple Calculator")
+Simple Calculator
+>>> print("Available operations:")
+Available operations:
+>>> print("1. Addition")
+1. Addition
+>>> print("2. Subtraction")
+2. Subtraction
+>>> print("3. Multiplication")
+3. Multiplication
+>>> print("4. Division")
+4. Division
+>>>
+>>> # Input from the user
+>>> while True:
+...     try:
+...         choice = int(input("Enter your choice (1/2/3/4): "))
+...
+  File "<stdin>", line 4
+
+SyntaxError: expected 'except' or 'finally' block
+>>>         if choice not in [1, 2, 3, 4]:
+  File "<stdin>", line 1
+    if choice not in [1, 2, 3, 4]:
+IndentationError: unexpected indent
+>>>             print("Invalid choice. Please select a valid operation.")
+  File "<stdin>", line 1
+    print("Invalid choice. Please select a valid operation.")
+IndentationError: unexpected indent
+>>>             continue
+  File "<stdin>", line 1
+    continue
+IndentationError: unexpected indent
+>>>
+>>>         num1 = float(input("Enter first number: "))
+  File "<stdin>", line 1
+    num1 = float(input("Enter first number: "))
+IndentationError: unexpected indent
+>>>         num2 = float(input("Enter second number: "))
+  File "<stdin>", line 1
+    num2 = float(input("Enter second number: "))
+IndentationError: unexpected indent
+>>>
+>>>         if choice == 1:
+  File "<stdin>", line 1
+    if choice == 1:
+IndentationError: unexpected indent
+>>>             result = add(num1, num2)
+  File "<stdin>", line 1
+    result = add(num1, num2)
+IndentationError: unexpected indent
+>>>             operation = "+"
+  File "<stdin>", line 1
+    operation = "+"
+IndentationError: unexpected indent
+>>>         elif choice == 2:
+  File "<stdin>", line 1
+    elif choice == 2:
+IndentationError: unexpected indent
+>>>             result = subtract(num1, num2)
+  File "<stdin>", line 1
+    result = subtract(num1, num2)
+IndentationError: unexpected indent
+>>>             operation = "-"
+  File "<stdin>", line 1
+    operation = "-"
+IndentationError: unexpected indent
+>>>         elif choice == 3:
+  File "<stdin>", line 1
+    elif choice == 3:
+IndentationError: unexpected indent
+>>>             result = multiply(num1, num2)
+  File "<stdin>", line 1
+    result = multiply(num1, num2)
+IndentationError: unexpected indent
+>>>             operation = "*"
+  File "<stdin>", line 1
+    operation = "*"
+IndentationError: unexpected indent
+>>>         else:
+  File "<stdin>", line 1
+    else:
+IndentationError: unexpected indent
+>>>             result = divide(num1, num2)
+  File "<stdin>", line 1
+    result = divide(num1, num2)
+IndentationError: unexpected indent
+>>>             operation = "/"
+  File "<stdin>", line 1
+    operation = "/"
+IndentationError: unexpected indent
+>>>
+>>>         print(f"{num1} {operation}
+  File "<stdin>", line 1
+    print(f"{num1} {operation}
+IndentationError: unexpected indent
+>>>
+>>>
+>>>
+>>> 8+8
+16
+>>> 8-8
+0
+>>> 859/7584
+0.11326476793248945
+>>> 24499*7289303
+178580634197
+>>>
